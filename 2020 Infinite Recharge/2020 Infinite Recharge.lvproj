@@ -115,8 +115,12 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Drive Backwards.vi" Type="VI" URL="../Drive Backwards.vi"/>
 		<Item Name="Encoder Starting Values.vi" Type="VI" URL="../Encoder Starting Values.vi"/>
+		<Item Name="Joystick Control.vi" Type="VI" URL="../Joystick Control.vi"/>
+		<Item Name="Limelight Control.vi" Type="VI" URL="../Limelight Control.vi"/>
 		<Item Name="Motion Profile Left Drive Control.vi" Type="VI" URL="../Motion Profile Left Drive Control.vi"/>
+		<Item Name="Motion Profile Paths.vi" Type="VI" URL="../Motion Profile Paths.vi"/>
 		<Item Name="Motion Profile Right Drive Control.vi" Type="VI" URL="../Motion Profile Right Drive Control.vi"/>
+		<Item Name="MP Test Path.vi" Type="VI" URL="../MP Test Path.vi"/>
 		<Item Name="open aux joystick.vi" Type="VI" URL="../open aux joystick.vi"/>
 		<Item Name="open drive joystick.vi" Type="VI" URL="../open drive joystick.vi"/>
 		<Item Name="Open Joysticks.vi" Type="VI" URL="../Open Joysticks.vi"/>
@@ -706,7 +710,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
