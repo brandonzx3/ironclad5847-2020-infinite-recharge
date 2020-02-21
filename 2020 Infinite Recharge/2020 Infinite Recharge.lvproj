@@ -113,6 +113,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Auto Shoot.vi" Type="VI" URL="../Auto Shoot.vi"/>
+		<Item Name="Current Encoder Values.vi" Type="VI" URL="../Current Encoder Values.vi"/>
 		<Item Name="Drive Backwards.vi" Type="VI" URL="../Drive Backwards.vi"/>
 		<Item Name="Encoder Starting Values.vi" Type="VI" URL="../Encoder Starting Values.vi"/>
 		<Item Name="Joystick Control.vi" Type="VI" URL="../Joystick Control.vi"/>
@@ -127,6 +129,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Open Joysticks.vi" Type="VI" URL="../Open Joysticks.vi"/>
 		<Item Name="Open Limit Switch.vi" Type="VI" URL="../Open Limit Switch.vi"/>
 		<Item Name="open motors.vi" Type="VI" URL="../open motors.vi"/>
+		<Item Name="Open Servo.vi" Type="VI" URL="../Open Servo.vi"/>
 		<Item Name="Read Limit Switch.vi" Type="VI" URL="../Read Limit Switch.vi"/>
 		<Item Name="Read Sensors.vi" Type="VI" URL="../Read Sensors.vi"/>
 		<Item Name="Reset Encoders.vi" Type="VI" URL="../Reset Encoders.vi"/>
@@ -692,6 +695,13 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="WPI_SafetyOutputVIRefnumList.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputVIRefnumList.vi"/>
+				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
+				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
+				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
+				<Item Name="WPI_ServoSetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetAngle.vi"/>
+				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
+				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
 				<Item Name="WPI_SetFilterFrequency.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/Filter/WPI_SetFilterFrequency.vi"/>
 				<Item Name="WPI_SwitchDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchDevRef.ctl"/>
 				<Item Name="WPI_SwitchGetLimitValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Switch/WPI_SwitchGetLimitValue.vi"/>
